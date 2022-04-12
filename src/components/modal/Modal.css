@@ -1,0 +1,70 @@
+.close {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  margin-left: 500px;
+}
+.close:before,
+.close:after {
+  content: " ";
+  position: absolute;
+  width: 2.5px;
+  height: 24px;
+  background-color: #000;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.buttonAdd {
+  color: white;
+  margin: 0px;
+  width: 200px;
+  height: 45px;
+  background-color: rgb(80, 127, 255);
+}
+
+.buttonSaveModal {
+  color: white;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(80, 127, 255);
+  margin-left: 60px;
+  margin-top: -100px;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 100px;
+}
+
+.checkbox {
+  margin-left: 270px;
+  margin-top: -100px;
+}
+
+.aviso1 {
+  color: red;
+  margin-top: -80px;
+  margin-left: 38px;
+  margin-bottom: 65px;
+}
+.aviso2 {
+  color: red;
+  margin-top: -50px;
+  margin-left: 38px;
+  margin-bottom: 65px;
+}
+
+.aviso3 {
+  color: red;
+  margin-top: -60px;
+  margin-left: 38px;
+  margin-bottom: 65px;
+}

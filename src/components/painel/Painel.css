@@ -1,0 +1,48 @@
+.painel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.div1,
+.div4,
+.div7 {
+  font-size: 22px;
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+  border: solid;
+  border-width: 2px;
+  width: 400px;
+  height: 400px;
+  overflow: auto;
+}
+.div4 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.div2,
+.div5,
+.div8 {
+  background-color: rgb(126, 126, 126);
+  border: solid;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-width: 2px;
+  width: 385px;
+  height: 100px;
+}
+
+.div3,
+.div6,
+.div9 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.butoon {
+  width: 25px;
+  height: 25px;
+  background: #6c7a89;
+}
